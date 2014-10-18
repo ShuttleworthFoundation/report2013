@@ -1,0 +1,9 @@
+#emacs tempfiles
+*~
+\#*
+
+#python bytecode
+*.pyc
+
+#compiled scss
+*.css
