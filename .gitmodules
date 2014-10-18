@@ -1,0 +1,3 @@
+[submodule "src/bubbletree"]
+	path = src/bubbletree
+	url = git@github.com:okfn/bubbletree.git

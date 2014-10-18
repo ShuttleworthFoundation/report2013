@@ -3,7 +3,7 @@ Shuttleworth Foundation - Annual Report 2013
 
 This repository contains the 2013 annual report infographic for the
 Shuttleworth foundation. Jekyll input files are generated from the
-`templates` and `data` files using the scripts provided and then
+`src/templates` and `src/data` files using the scripts provided and then
 integrated into the main shuttleworthfoundation.org Jekyll page.
 
 Checking out
