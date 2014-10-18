@@ -7,3 +7,9 @@
 
 #compiled scss
 *.css
+
+#venv
+venv/*
+
+#generated output
+index.html
