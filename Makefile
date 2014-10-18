@@ -1,19 +1,27 @@
-PHONY: default build pull
+PHONY: default build update help
 
-default: pull build
+default: build
 
-pull:
+help:
+	@echo 'Available targets:'
+	@echo
+	@echo 'help - Show this summary.'
+	@echo 'update - Pull all git repos recursively.'
+	@echo 'build - Build the Jekyll files.'
+	@echo 'venv - Update the required Python venv.'
+
+update:
 	git submodule update --init --recursive
 	git submodule foreach --recursive git pull
 
-build: venv
-	. venv/bin/activate && src/scripts/generate.py
+build: _venv
+	. _venv/bin/activate && _src/scripts/generate.py
 
-venv: venv/bin/activate venv/.updated
+_venv: _venv/bin/activate _venv/.updated
 
-venv/bin/activate:
-	virtualenv venv
+_venv/bin/activate:
+	virtualenv _venv
 
-venv/.updated: src/requirements.txt
-	. venv/bin/activate && pip install -r src/requirements.txt
+_venv/.updated: _src/requirements.txt
+	. _venv/bin/activate && pip install -r _src/requirements.txt
 	touch $@

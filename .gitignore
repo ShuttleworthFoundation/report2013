@@ -9,7 +9,7 @@
 *.css
 
 #venv
-venv/*
+_venv/*
 
 #generated output
 index.html
