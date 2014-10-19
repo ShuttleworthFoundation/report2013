@@ -1,0 +1,40 @@
+<section id="alumni" class="odd">
+  <div class="container">
+    <h2>Alumni</h2>
+    <p>
+      As driving social change does not adhere to financial or
+      fellowship years, Fellows are allowed to spend unlocked
+      project funds beyond the end of a fellowship year. In addition
+      to Alumni continuing to participate in our bi-annual
+      fellows&rsquo; gatherings, mentoring new Fellows and engaging
+      in the Fellowship group as support network, we remain invested
+      in their entities and continue to work with them on project
+      implementation.
+    </p>
+  </div>
+  <div class="container-alumni">
+    <div class="container-alumni-inner">
+      [% set maxlength = alumni|maxlength(attribute='spend') %]
+      [% for entry in alumni -%]
+      <div class="alumni-entry">
+	<img src="images/alumni/[[ entry.id ]].jpg" alt="[[ entry.name ]]"/>
+	<h4>[[ entry.name ]]</h4>
+	<div class="alumni-spend">
+	  [% for item in entry.spend -%]
+	  <div class="alumni-spend-entry">
+	    <span class="alumni-spend-entry-label">[[ item.label ]]</span>
+	    <span class="alumni-spend-entry-amount">[[ item.amount|currency ]]</span>
+	  </div>
+	  [%- endfor %]
+	  [% for extra in range(maxlength-entry.spend|length) -%]
+	  <div class="alumni-spend-entry"></div>
+	  [%- endfor %]
+	</div>
+	<div class="alumni-spend-total">
+	  [[ entry.spend|sum(attribute='amount')|currency ]]
+	</div>
+      </div>
+      [%- endfor %]
+    </div>
+  </div>
+</section>

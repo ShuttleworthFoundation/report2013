@@ -1,0 +1,45 @@
+<section id="applications" class="even">
+  <div class="container">
+    <h2>Fellowship applications</h2>
+    <p>
+      We invite individuals from anywhere in the world to apply for
+      a fellowship based on their innovative idea for social
+      change. While we value knowledge, learning and technology as
+      key themes, we encourage applicants to present us with their
+      idea as is rather than trying to fit it into a specific
+      mould. Our only absolute requirements are that their work be
+      open and they apply fresh thinking that adds value.
+    </p>
+  </div>
+  <div class="container-infographic">
+    <h6 class="pull-left">COUNTRY RANKING</h6>
+    <h6 class="pull-right">THEME RANKING</h6>
+    <svg id="applications-ranking" width="100%" viewBox="-150 -150 300 300"></svg>
+  </div>
+  <div class="container-infographic">
+    <div class="applications-gender">
+      <h6>GENDER OF APPLICANTS</h6>
+      <svg id="applications-gender" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="-40 -80 170 175" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g class="male">
+	  <path class="segment"/>
+	  <path d="M-20,-50 L0,-70 L20,-50 M0,-70 L0,-30"/>
+	  <text class="aggregate" x="40" y="-32"></text>
+	  <text x="50" y="-10">males</text>
+	</g>
+	<g class="female">
+	  <path class="segment"/>
+	  <path d="M0,80 L0,30 M-20,60 L20,60"/>
+	  <text class="aggregate" x="40" y="40"></text>
+	  <text x="50" y="62">females</text>
+	</g>
+      </svg>
+    </div>
+  </div>
+  <script>
+    applications = [[ applications|json ]];
+    
+    _jqq.push(function() {
+        {% include_relative js/application.js %}
+    });
+  </script>
+</section>

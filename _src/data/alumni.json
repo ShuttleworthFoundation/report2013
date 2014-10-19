@@ -1,0 +1,28 @@
+[
+    { "id": "francois",
+      "name": "Francois Grey",
+      "spend": [
+	  { "label": "Travel", "amount": 5517.25 }
+      ]
+    },
+    { "id": "mark",
+      "name": "Mark Horner",
+      "spend": [
+	  { "label": "Travel", "amount": 9238.10 }
+      ]
+    },
+    { "id": "philipp",
+      "name": "Philipp Schmidt",
+      "spend": [
+	  { "label": "People", "amount": 75517.00 },
+	  { "label": "Infrastructure", "amount": 7225.00 }
+      ]
+    },
+    { "id": "steve",
+      "name": "Steve Song",
+      "spend": [
+	  { "label": "Audit fees", "amount": 11140.65 }
+      ]
+    }
+]
+

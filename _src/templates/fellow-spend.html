@@ -1,0 +1,86 @@
+<section id="fellow-spend" class="odd">
+  <div class="container">
+    <h2>How our fellows spent their money</h2>
+    <p>
+      At the heart of our co-investment fellowship model is the
+      principle that Fellows continue to invest in their own
+      ideas. The Foundation amplifies the Fellow&rsquo;s investment
+      by matching it at least tenfold, along with covering the cost
+      of their time for the year.
+    </p>
+    <p>
+      The figures you see here do not reflect each Fellow&rsquo;s
+      fellowship year funding, but rather the funds unlocked within
+      our financial year, as the fellowship years start either March
+      or September and Fellows are not required to spend the
+      available funds proportionately throughout the year.
+    </p>
+  </div>
+  <div class="container-fellow-spend">
+    <div class="container-fellow-spend-inner">
+      [% for fellow in fellows -%]
+      <div class="fellow-spend-entry [% if loop.index == 1 %]fellow-spend-entry-active[% else %]fellow-spend-entry-next[% endif %]" data-fellow="[[ fellow.id ]]">
+	<div class="fellow-spend-entry-left">
+	  <h4>[[ fellow.name ]]</h4>
+	  <div class="fellow-spend-duration">
+	    <strong>Fellowship duration:</strong> [[ fellow.duration ]]<br/>
+	    [[ fellow.months_in_year ]] months of fellowship in 2013
+	  </div>
+	  
+	  <div class="fellow-spend-links">
+	    [% if fellow.blog %]<a href="[[ fellow.blog ]]"><span class="icon-link icon-blog"></span> [[ fellow.blog ]]</a><br/>[% endif %]
+	    [% if fellow.twitter %]<a href="https://twitter.com/[[ fellow.twitter ]]"><span class="icon-link icon-twitter"></span> [[ fellow.twitter ]]</a><br/>[% endif %]
+	    [% if fellow.www %]<a href="[[ fellow.www ]]"><span class="icon-link icon-web"></span> [[ fellow.www ]]</a>[% endif %]
+	  </div>
+	</div>
+	<div class="fellow-spend-entry-right">
+	  <div class="fellow-spend-contributions">
+	    Fellow contribution: [[ fellow.contribution.fellow|currency ]]<br/>
+	    Our contribution: [[ fellow.contribution.our|currency ]]<br/>
+	    Total funds: <span class="red">[[ (fellow.contribution.fellow+fellow.contribution.our)|currency ]]</span>
+	  </div>
+	  <h5>Spend breakdown</h5>
+	  [% for entry in fellow.spend -%]
+	  <div class="fellow-spend-item">
+	    <div class="icon icon-[[ entry.label|lower ]]"></div>
+	    <div class="fellow-spend-item-label">
+	      [[ entry.label ]]
+	    </div>
+	    <div class="fellow-spend-item-amount">
+	      [[ entry.amount|currency ]]
+	    </div>
+	  </div>
+	  [%- endfor %]
+	  <div class="fellow-spend-total">
+	    Total <span class="fellow-spend-total-amount red">[[ fellow.spend|sum(attribute='amount')|currency ]]</span>
+	  </div>
+	</div>
+	<div class="fellow-spend-chart chart-deferred" data-fellow="[[ fellow.id ]]">
+	  <svg width="100%" height="100%" viewBox="-50 -50 100 100"></svg>
+	  <div class="fellow-spend-chart-photo" style="background-image: url(images/fellows/[[ fellow.id ]].jpg);"></div>
+	</div>
+      </div>
+      [%- endfor %]
+      <div class="fellow-spend-arrow-left"></div>
+      <div class="fellow-spend-arrow-right"></div>
+      <div class="fellow-spend-dots">
+	[% for fellow in fellows -%]
+	<div class="fellow-spend-dot[% if loop.index == 1 %] fellow-spend-dot-active[% endif %]" data-fellow="[[ fellow.id ]]">
+	  <div class="fellow-spend-dot-tooltip">[[ fellow.name ]]</div>
+	</div>
+	[%- endfor %]
+      </div>
+    </div>
+  </div>
+  <script>
+    fellow_spend = {
+        [%- for fellow in fellows %][% if loop.index != 1 %],[% endif -%]
+        "[[ fellow.id ]]": [[fellow.spend|json ]]
+        [%- endfor -%]
+    };
+    
+    _jqq.push(function() {
+        {% include_relative js/fellow-spend.js %}
+    });
+  </script>
+</section>

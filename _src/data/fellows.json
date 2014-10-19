@@ -1,0 +1,149 @@
+[
+    { "id": "arthur",
+      "name": "Arthur Attwell",
+      "duration": "September 2011 - present",
+      "months_in_year": 12,
+      "blog": "http://arthurattwell.com",
+      "twitter": "@atrhurattwell",
+      "www": "http://paperight.com",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 135092.00 },
+		{ "label": "Marketing", "amount": 60962.94 },
+		{ "label": "Software", "amount": 14658.40 },
+		{ "label": "Training", "amount": 2137.42 }
+	       ]
+    },
+    { "id": "catharina",
+      "name": "Catharina Maracke",
+      "duration": "May 2012 - present",
+      "www": "http://harmonyagreements.org",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 196524.10 },
+		{ "label": "Legal fees", "amount": 13237.50 },
+		{ "label": "Travel", "amount": 1428.26 }
+	       ]
+    },
+    { "id": "gavin",
+      "name": "Gavin Weale",
+      "duration": "March 2011 - present",
+      "blog": "http://livity.co.uk/category/blog",
+      "twitter": "@gavinweale",
+      "www": "http://www.livityafrica.com http://livemag.co.za",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "funds-footnote": "Variance due to rollover funds from 2011",
+      "spend": [{ "label": "People", "amount": 222262.95 },
+		{ "label": "Printing", "amount": 97547.68 },
+		{ "label": "Overheads", "amount": 40644.56 },
+		{ "label": "Marketing", "amount": 24086.05 },
+		{ "label": "Software", "amount": 16652.82 },
+		{ "label": "Stipends", "amount": 16424.83 },
+		{ "label": "Distribution", "amount": 12847.43 },
+		{ "label": "Travel", "amount": 11722.87 }
+	       ]
+    },
+    { "id": "jaisen",
+      "name": "Jaisen Mathai",
+      "duration": "September 2012 - present",
+      "twitter": "https://twitter.com/jmathai",
+      "www": "http://www.jaisenmathai.com",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 50412.50 },
+		{ "label": "Software", "amount": 31835.89 }
+	       ]
+    },
+    { "id": "rufus",
+      "name": "Rufus Pollock",
+      "duration": "September 2010 - present",
+      "blog": "http://rufuspollock.org",
+      "twitter": "@rufuspollock",
+      "www": "http://rufuspollock.org",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 67086.68 }
+	       ]
+    },
+    { "id": "kathi",
+      "name": "Kathi Fletcher",
+      "duration": "March 2011 - present",
+      "blog": "kefletcher.blogspot.com",
+      "twitter": "@kefletcher",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "Software", "amount": 155473.62 },
+		{ "label": "People", "amount": 131304.17 },
+		{ "label": "Travel", "amount": 18987.33 }
+	       ]
+    },
+    { "id": "marcin",
+      "name": "Marcin Jacubowski",
+      "duration": "March 2012 - present",
+      "blog": "http://blog.opensourceecology.org",
+      "twitter": "@OSEcology",
+      "www": "http://opensourceecology.org",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 99591.60 }
+	       ]
+    },
+    { "id": "esra",
+      "name": "Esra'a Al Shafei",
+      "duration": "September 2012 - present",
+      "blog": "http://mideastyouth.com/author/esra",
+      "twitter": "@ealshafei",
+      "www": "http://crowdvoice.org",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 21912.50 }
+	       ]
+    },
+    { "id": "paul",
+      "name": "Paul Gardner-Stevens",
+      "duration": "September 2011 - August 2012",
+      "blog": "http://servalpaul.blogspot.com",
+      "twitter": "@servalpaul",
+      "www": "http://www.servalproject.org",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "Software", "amount": 142099.65 },
+		{ "label": "Travel", "amount": 21715.79 },
+		{ "label": "People", "amount": 11061.82 }
+	       ]
+    },
+    { "id": "philipp",
+      "name": "Philipp Schmidt",
+      "duration": "June 2009 - August 2012",
+      "blog": "http://sharing-nicely.net",
+      "twitter": "@schmidtphi",
+      "www": "http://p2pu.org",
+      "contribution": {
+	  "fellow": 14804.28,
+	  "our": 198046.44
+      },
+      "spend": [{ "label": "People", "amount": 64733.89 },
+		{ "label": "Infrastructure", "amount": 22046.96 },
+		{ "label": "Events", "amount": 18748.13 }
+	       ]
+    }
+]

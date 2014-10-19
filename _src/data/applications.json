@@ -1,0 +1,409 @@
+{
+  "items": [
+    {
+      "category": "category", 
+      "value": 57, 
+      "label": "Education"
+    }, 
+    {
+      "category": "category", 
+      "value": 38, 
+      "label": "ICT"
+    }, 
+    {
+      "category": "category", 
+      "value": 33, 
+      "label": "Social Development"
+    }, 
+    {
+      "category": "category", 
+      "value": 19, 
+      "label": "Culture"
+    }, 
+    {
+      "category": "category", 
+      "value": 17, 
+      "label": "Youth development"
+    }, 
+    {
+      "category": "category", 
+      "value": 17, 
+      "label": "not disclosed"
+    }, 
+    {
+      "category": "category", 
+      "value": 12, 
+      "label": "Environment"
+    }, 
+    {
+      "category": "category", 
+      "value": 11, 
+      "label": "Healthcare"
+    }, 
+    {
+      "category": "category", 
+      "value": 9, 
+      "label": "Agriculture"
+    }, 
+    {
+      "category": "category", 
+      "value": 9, 
+      "label": "Conflict resolution"
+    }, 
+    {
+      "category": "category", 
+      "value": 7, 
+      "label": "Research"
+    }, 
+    {
+      "category": "category", 
+      "value": 7, 
+      "label": "Enterprise development"
+    }, 
+    {
+      "category": "category", 
+      "value": 4, 
+      "label": "Food security"
+    }, 
+    {
+      "category": "category", 
+      "value": 4, 
+      "label": "Human Rights"
+    }, 
+    {
+      "category": "category", 
+      "value": 4, 
+      "label": "Open Data"
+    }, 
+    {
+      "category": "category", 
+      "value": 3, 
+      "label": "Social media"
+    }, 
+    {
+      "category": "category", 
+      "value": 3, 
+      "label": "HIV/AIDS"
+    }, 
+    {
+      "category": "category", 
+      "value": 3, 
+      "label": "Economics"
+    }, 
+    {
+      "category": "category", 
+      "value": 2, 
+      "label": "Crime"
+    }, 
+    {
+      "category": "category", 
+      "value": 2, 
+      "label": "Entrepreneurship"
+    }, 
+    {
+      "category": "category", 
+      "value": 2, 
+      "label": "Religion"
+    }, 
+    {
+      "category": "category", 
+      "value": 2, 
+      "label": "OER"
+    }, 
+    {
+      "category": "category", 
+      "value": 2, 
+      "label": "Fashion"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Belgium"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Bolivia"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Botswana"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Brazil"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Denmark"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Egypt"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Ethiopia"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Finland"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Iran"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Jamaica"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Japan"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Latvia"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Lebanon"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Liberia"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Malawi"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Maldives"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Mexico"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Mozambique"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Nepal"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Netherlands"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Palestine"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Philippines"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Poland"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Rwanda"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Sierra Leone"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Slovakia"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Sri Lanka"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Spain"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Swaziland"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Thailand"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Togo"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Uzbekistan"
+    }, 
+    {
+      "category": "country", 
+      "value": 1, 
+      "label": "Zambia"
+    }, 
+    {
+      "category": "country", 
+      "value": 2, 
+      "label": "Bangladesh"
+    }, 
+    {
+      "category": "country", 
+      "value": 2, 
+      "label": "China"
+    }, 
+    {
+      "category": "country", 
+      "value": 2, 
+      "label": "Colombia"
+    }, 
+    {
+      "category": "country", 
+      "value": 2, 
+      "label": "Jordan"
+    }, 
+    {
+      "category": "country", 
+      "value": 2, 
+      "label": "Sweden"
+    }, 
+    {
+      "category": "country", 
+      "value": 3, 
+      "label": "France"
+    }, 
+    {
+      "category": "country", 
+      "value": 3, 
+      "label": "Israel"
+    }, 
+    {
+      "category": "country", 
+      "value": 3, 
+      "label": "Tanzania"
+    }, 
+    {
+      "category": "country", 
+      "value": 3, 
+      "label": "Zimbabwe"
+    }, 
+    {
+      "category": "country", 
+      "value": 4, 
+      "label": "Australia"
+    }, 
+    {
+      "category": "country", 
+      "value": 4, 
+      "label": "Germany"
+    }, 
+    {
+      "category": "country", 
+      "value": 4, 
+      "label": "Ghana"
+    }, 
+    {
+      "category": "country", 
+      "value": 4, 
+      "label": "Romania"
+    }, 
+    {
+      "category": "country", 
+      "value": 5, 
+      "label": "Cameroon"
+    }, 
+    {
+      "category": "country", 
+      "value": 5, 
+      "label": "India"
+    }, 
+    {
+      "category": "country", 
+      "value": 6, 
+      "label": "Russia"
+    }, 
+    {
+      "category": "country", 
+      "value": 8, 
+      "label": "Canada"
+    }, 
+    {
+      "category": "country", 
+      "value": 8, 
+      "label": "Pakistan"
+    }, 
+    {
+      "category": "country", 
+      "value": 13, 
+      "label": "Uganda"
+    }, 
+    {
+      "category": "country", 
+      "value": 14, 
+      "label": "Kenya"
+    }, 
+    {
+      "category": "country", 
+      "value": 14, 
+      "label": "Nigeria"
+    }, 
+    {
+      "category": "country", 
+      "value": 14, 
+      "label": "UK"
+    }, 
+    {
+      "category": "country", 
+      "value": 37, 
+      "label": "USA"
+    }, 
+    {
+      "category": "country", 
+      "value": 72, 
+      "label": "South Africa"
+    }
+  ], 
+  "countries": 57, 
+  "categories": 23, 
+  "applications": 267,
+  "male": 156,
+  "female": 59
+}

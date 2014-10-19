@@ -1,4 +1,4 @@
-PHONY: default build update help
+.PHONY: default build update help
 
 default: build
 
