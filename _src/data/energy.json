@@ -1,0 +1,15 @@
+{
+    "arthur": ["Intellectual Property", "Publishing", "Education"],
+    "catharina" : ["Intellectual Property", "Web"],
+    "daniel": ["Education", "Web", "Data", "Science"],
+    "dan": ["Web", "Education"],
+    "david": ["Education", "Publishing", "Web"],
+    "esra": ["Publishing", "Goverment", "Data", "Web"],
+    "gavin": ["Education", "Publishing", "Web"],
+    "jaisen": ["Data", "Publishing", "Web"],
+    "jonas": ["Intellectual Property", "Web", "Data"],
+    "kathi": ["Education", "Publishing", "Web"],
+    "marcin": ["Hardware"],
+    "moxie": ["Privacy"],
+    "rufus": ["Data", "Science", "Goverment", "Education"]
+}

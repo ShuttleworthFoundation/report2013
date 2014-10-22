@@ -34,6 +34,19 @@
 	</g>
       </svg>
     </div>
+    <div class="applications-selection">
+      <h6>SELECTION PROCESS</h6>
+      {% include_relative applications-selection.svg %}
+      <div class="applications-selection-legend">
+	[% for category, count in selection.items()|reversed -%]
+	<div class="applications-selection-legend-item item-[[ category|lower ]]">
+	  <span class="selection-legend-icon">{% include_relative images/selection.svg %}</span>
+	  <span class="selection-legend-label">[[ category ]]</span>
+	  <span class="selection-legend-value">[[ count ]]</span>
+	</div>
+	[%- endfor %]
+      </div>
+    </div>
   </div>
   <script>
     applications = [[ applications|json ]];

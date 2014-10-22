@@ -32,6 +32,7 @@ section#applications {
 	    height: 350px;
 	    padding: 30px;
 	    float: right;
+	    margin-top: 60px;
 
 	    h6 {
 		text-align: center;
@@ -40,6 +41,91 @@ section#applications {
 	    svg {
 		margin: 10%;
 		width: 80%;
+	    }
+	}
+	
+	.applications-selection {
+	    width: 50%;
+	    position: relative;
+	    
+	    svg {
+		margin-left: -15px;
+		
+		g {
+		    &.animated {
+			transition: all 0.5s;
+		    }
+		    
+		    &.hidden {
+			opacity: 0;
+		    }
+		}
+	    }
+	    
+	    .applications-selection-legend {
+		position: absolute;
+		right: -50px;
+		bottom: 50px;
+		font-size: 16px;
+		font-weight: 600;
+		color: #2C3E50;
+		
+		.applications-selection-legend-item {
+		    margin: 5px 0;
+		    
+		    .selection-legend-icon {
+			display: inline-block;
+			width: 4px;
+			height: 20px;
+			vertical-align: middle;
+			margin-top: -10px;
+			
+			svg {
+			    width: 20px;
+			    height: 20px;
+			}
+		    }
+		    
+		    .selection-legend-label {
+			display: inline-block;
+			width: 110px;
+		    }
+		    
+		    .selection-legend-value {
+			display: inline-block;
+			width: 30px;
+		    }
+		    
+		    &.item-enquiries .selection-legend-icon svg path{
+			fill: rgb(97,172,70);
+			
+		    }
+		    
+		    &.item-applications .selection-legend-icon svg path{
+			fill: rgb(13,151,159);
+			
+		    }
+		    
+		    &.item-declined .selection-legend-icon svg path{
+			fill: rgb(226,38,48);
+			
+		    }
+		    
+		    &.item-short .selection-legend-icon svg path{
+			fill: rgb(120,80,51);
+			
+		    }
+		    
+		    &.item-selected .selection-legend-icon svg path{
+			fill: rgb(240,110,37);
+			
+		    }
+		    
+		    &.item-withdrawn .selection-legend-icon svg path{
+			fill: rgb(251,185,22);
+			
+		    }
+		}
 	    }
 	}
     }
@@ -159,4 +245,31 @@ $color2: rgb(240,110,37);
 	    fill: $color2;
 	}
     }
+}
+
+#applications-selection {
+    .enquiries > use {
+	fill: rgb(97,172,70);
+    }
+    
+    .applications > use {
+	fill: rgb(13,151,159);
+    }
+    
+    .declined > use {
+	fill: rgb(226,38,48);
+    }
+    
+    .shortlisted > use {
+	fill: rgb(120,80,51);
+    }
+    
+    .selected > use {
+	fill: rgb(240,110,37);
+    }
+    
+    .withdrawn > use {
+	fill: rgb(251,185,22);
+    }
+    
 }

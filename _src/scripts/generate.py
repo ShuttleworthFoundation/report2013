@@ -4,6 +4,7 @@ import os
 import sys
 import json
 import jinja2
+import collections
 
 DIR_SCRIPT = os.path.dirname(os.path.realpath(__file__))
 DIR_BASE = os.path.abspath(os.path.join(DIR_SCRIPT, '..'))
@@ -37,7 +38,7 @@ class Context(dict):
                 if filename.endswith('.json'):
                     key = filename[:-5]
                     with open(os.path.join(dirpath, filename), 'r') as fd:
-                        value = json.load(fd)
+                        value = json.load(fd, object_pairs_hook=collections.OrderedDict)
                     self[key] = value
 
     
@@ -72,6 +73,7 @@ class Compiler(object):
         self.env.filters['currency'] = currency
         
         self.env.filters['json'] = json.dumps
+        self.env.filters['reversed'] = reversed
     
     def build(self, name, context):
         template = self.env.get_template(name)
@@ -79,11 +81,53 @@ class Compiler(object):
         with open(os.path.join(DIR_OUTPUT, name), 'w') as fd:
             fd.write(output)
 
+def selection(context):
+    elements = {}
+    y = 0
+    rplaced = 0
+    rcount = 0
+    placement = 'ltr'
+    box = { "x": -10, "y": -20, "w": 20, "h": 20 }
+    #rowcount = sorted([1, 3] + range(5,43,2)*2 + [41], reverse=True)
+    rowcount = sorted([1, 3] + range(5,100,2)*2, reverse=True)
+    for category, count in context['selection'].items():
+        items = [];
+        while count:
+            if rplaced == rcount:
+                rcount = rowcount.pop()
+                rplaced = 0
+                y -= 10
+                if count < rcount and category == 'Enquiries':
+                    placement = 'mdl'
+                else:
+                    placement = 'ltr'
+            if placement == 'mdl':
+                if rplaced == 0:
+                    x = 0
+                elif rplaced % 2:
+                    x = -8 * int((rplaced+2)/2)
+                else:
+                    x = 8 * int((rplaced+1)/2)
+            else: #if placement == 'ltr'
+                x = -8 * ((rcount/2) - rplaced)
+            if abs(x) > abs(box['x']):
+                box['x'] = -abs(x)-10
+                box['w'] = abs(x)*2+20
+            items.append({ "x": x, "y": y })
+            rplaced += 1
+            count -= 1
+        y -= 5
+        elements[category.lower().replace(' ', '')] = items
+    box['y'] = y
+    box['h'] = -y+20
+    return { "elements": elements, "box": box }
 
 def main():
     context = Context()
     context.load()
     compiler = Compiler()
+    compiler.build('applications-selection.svg', selection(context))
+    compiler.build('bubbletree.html', context)
     compiler.build('index.html', context)
 
 if __name__ == '__main__':

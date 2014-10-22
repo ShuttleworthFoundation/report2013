@@ -164,7 +164,7 @@
 	"female": applications.female
     });
     
-    function defer() {
+    (function() {
 	var element = {};
 	element.node = $('#applications-ranking');
 	element.top = element.node.offset().top;
@@ -183,7 +183,6 @@
 		clearInterval(interval);
 	    }
 	}, 500);
-    }
-    defer();
+    })();
     
 })();
