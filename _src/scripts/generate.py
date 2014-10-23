@@ -69,7 +69,7 @@ class Compiler(object):
         self.env.filters['maxlength'] = maxlength
         
         def currency(value):
-            return u'${:20,.2f}'.format(value)
+            return u'${:,.2f}'.format(value)
         self.env.filters['currency'] = currency
         
         self.env.filters['json'] = json.dumps
@@ -79,7 +79,7 @@ class Compiler(object):
         template = self.env.get_template(name)
         output = template.render(**context)
         with open(os.path.join(DIR_OUTPUT, name), 'w') as fd:
-            fd.write(output)
+            fd.write(output.encode('utf8'))
 
 def selection(context):
     elements = {}

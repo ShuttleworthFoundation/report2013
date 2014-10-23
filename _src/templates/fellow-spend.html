@@ -18,7 +18,7 @@
   </div>
   <div class="container-fellow-spend">
     <div class="container-fellow-spend-inner">
-      [% for fellow in fellows -%]
+      [% for fellow in fellows|sort(attribute='name') -%]
       <div class="fellow-spend-entry [% if loop.index == 1 %]fellow-spend-entry-active[% else %]fellow-spend-entry-next[% endif %]" data-fellow="[[ fellow.id ]]">
 	<div class="fellow-spend-entry-left">
 	  <h4>[[ fellow.name ]]</h4>
@@ -40,7 +40,7 @@
 	    Total funds: <span class="red">[[ (fellow.contribution.fellow+fellow.contribution.our)|currency ]]</span>
 	  </div>
 	  <h5>Spend breakdown</h5>
-	  [% for entry in fellow.spend -%]
+	  [% for entry in fellow.spend|sort(attribute='amount', reverse=True) -%]
 	  <div class="fellow-spend-item">
 	    <div class="icon icon-[[ entry.label|lower ]]"></div>
 	    <div class="fellow-spend-item-label">

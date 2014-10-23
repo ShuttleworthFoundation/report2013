@@ -1,149 +1,233 @@
 [
-    { "id": "arthur",
-      "name": "Arthur Attwell",
-      "duration": "September 2011 - present",
-      "months_in_year": 12,
-      "blog": "http://arthurattwell.com",
-      "twitter": "@atrhurattwell",
-      "www": "http://paperight.com",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 135092.00 },
-		{ "label": "Marketing", "amount": 60962.94 },
-		{ "label": "Software", "amount": 14658.40 },
-		{ "label": "Training", "amount": 2137.42 }
-	       ]
+    {
+	"id": "arthur",
+	"name": "Arthur Attwell",
+	"duration": "September 2011 - present",
+	"months_in_year": 12,
+	"blog": "http://arthurattwell.com",
+	"twitter": "@atrhurattwell",
+	"www": "http://paperight.com",
+	"contribution": {
+	    "fellow": 14804.28,
+	    "our": 198046.44
+	},
+	"spend": [
+	    { "label": "People", "amount": 135092.00 },
+	    { "label": "Marketing", "amount": 60962.94 },
+	    { "label": "Software", "amount": 14658.40 },
+	    { "label": "Training", "amount": 2137.42 }
+	]
     },
-    { "id": "catharina",
-      "name": "Catharina Maracke",
-      "duration": "May 2012 - present",
-      "www": "http://harmonyagreements.org",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 196524.10 },
-		{ "label": "Legal fees", "amount": 13237.50 },
-		{ "label": "Travel", "amount": 1428.26 }
-	       ]
+    {
+	"id": "catharina",
+	"name": "Catharina Maracke",
+	"duration": "May 2012 - present",
+	"months_in_year": 12,
+	"www": "http://harmonyagreements.org",
+	"contribution": {
+	    "fellow": 16496.92,
+	    "our": 322951.54
+	},
+	"spend": [
+	    { "label": "People", "amount": 175484.56 },
+	    { "label": "Infrastructure", "amount": 79739.18 },
+	    { "label": "Software", "amount": 24000.00 },
+	    { "label": "Travel", "amount": 60224.71 }
+	]
     },
-    { "id": "gavin",
-      "name": "Gavin Weale",
-      "duration": "March 2011 - present",
-      "blog": "http://livity.co.uk/category/blog",
-      "twitter": "@gavinweale",
-      "www": "http://www.livityafrica.com http://livemag.co.za",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "funds-footnote": "Variance due to rollover funds from 2011",
-      "spend": [{ "label": "People", "amount": 222262.95 },
-		{ "label": "Printing", "amount": 97547.68 },
-		{ "label": "Overheads", "amount": 40644.56 },
-		{ "label": "Marketing", "amount": 24086.05 },
-		{ "label": "Software", "amount": 16652.82 },
-		{ "label": "Stipends", "amount": 16424.83 },
-		{ "label": "Distribution", "amount": 12847.43 },
-		{ "label": "Travel", "amount": 11722.87 }
-	       ]
+    {
+	"id": "daniel",
+	"name": "Daniel Lombraña González",
+	"duration": "September 2013 - present",
+	"months_in_year": 4,
+	"blog": "http://daniellombrana.es",
+	"twitter": "@teleyinex",
+	"www": "http://crowdcrafting.org",
+	"contribution": {
+	    "fellow": 2558.66,
+	    "our": 64347.26
+	},
+	"spend": [
+	    { "label": "People", "amount": 52334.40 },
+	    { "label": "Infrastructure", "amount": 12999.45 },
+	    { "label": "Travel", "amount": 1572.06 }
+	]
     },
-    { "id": "jaisen",
-      "name": "Jaisen Mathai",
-      "duration": "September 2012 - present",
-      "twitter": "https://twitter.com/jmathai",
-      "www": "http://www.jaisenmathai.com",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 50412.50 },
-		{ "label": "Software", "amount": 31835.89 }
-	       ]
+    {
+	"id": "dan",
+	"name": "Dan Whaley",
+	"duration": "March 2013 - present",
+	"months_in_year": 10,
+	"twitter": "@dwhly",
+	"www": "http://hypothes.is",
+	"contribution": {
+	    "fellow": 19488.64,
+	    "our": 409237.86
+	},
+	"spend": [
+	    { "label": "People", "amount": 330726.50 },
+	    { "label": "Software", "amount": 98000.00 }
+	]
     },
-    { "id": "rufus",
-      "name": "Rufus Pollock",
-      "duration": "September 2010 - present",
-      "blog": "http://rufuspollock.org",
-      "twitter": "@rufuspollock",
-      "www": "http://rufuspollock.org",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 67086.68 }
-	       ]
+    {
+	"id": "david",
+	"name": "David Wiley",
+	"duration": "March 2013 - present",
+	"months_in_year": 10,
+	"blog": "http://opencontent.org/blog",
+	"twitter": "@opencontent",
+	"www": "http://lumenlearning.com",
+	"contribution": {
+	    "fellow": 19488.64,
+	    "our": 322022.36
+	},
+	"spend": [
+	    { "label": "Software", "amount": 245000.00 },
+	    { "label": "People", "amount": 97511.00 }
+	]
     },
-    { "id": "kathi",
-      "name": "Kathi Fletcher",
-      "duration": "March 2011 - present",
-      "blog": "kefletcher.blogspot.com",
-      "twitter": "@kefletcher",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "Software", "amount": 155473.62 },
-		{ "label": "People", "amount": 131304.17 },
-		{ "label": "Travel", "amount": 18987.33 }
-	       ]
+    {
+	"id": "esra",
+	"name": "Esra'a Al Shafei",
+	"duration": "September 2012 - present",
+	"months_in_year": 12,
+	"blog": "http://mideastyouth.com/author/esra",
+	"twitter": "@ealshafei",
+	"www": "http://crowdvoice.org",
+	"contribution": {
+	    "fellow": 14835.64,
+	    "our": 221018.34
+	},
+	"spend": [
+	    { "label": "People", "amount": 81412.18 },
+	    { "label": "Software", "amount": 150720.00 },
+	    { "label": "Travel", "amount": 3721.80 }
+	]
     },
-    { "id": "marcin",
-      "name": "Marcin Jacubowski",
-      "duration": "March 2012 - present",
-      "blog": "http://blog.opensourceecology.org",
-      "twitter": "@OSEcology",
-      "www": "http://opensourceecology.org",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 99591.60 }
-	       ]
+    {
+	"id": "gavin",
+	"name": "Gavin Weale",
+	"duration": "March 2011 - present",
+	"months_in_year": 12,
+	"blog": "http://livity.co.uk/category/blog",
+	"twitter": "@gavinweale",
+	"www": "http://www.livityafrica.com http://livemag.co.za",
+	"contribution": {
+	    "fellow": 18285.30,
+	    "our": 314816.47
+	},
+	"funds-footnote": "Variance due to rollover funds from 2011",
+	"spend": [
+	    { "label": "People", "amount": 241152.84 },
+	    { "label": "Marketing", "amount": 91948.93 }
+	]
     },
-    { "id": "esra",
-      "name": "Esra'a Al Shafei",
-      "duration": "September 2012 - present",
-      "blog": "http://mideastyouth.com/author/esra",
-      "twitter": "@ealshafei",
-      "www": "http://crowdvoice.org",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 21912.50 }
-	       ]
+    {
+	"id": "jaisen",
+	"name": "Jaisen Mathai",
+	"duration": "September 2012 - present",
+	"months_in_year": 12,
+	"twitter": "https://twitter.com/jmathai",
+	"www": "http://www.jaisenmathai.com",
+	"contribution": {
+	    "fellow": 27221.73,
+	    "our": 404221.45
+	},
+	"spend": [
+	    { "label": "People", "amount": 387957.18 },
+	    { "label": "Marketing", "amount": 17500.00 },
+	    { "label": "Infrastructure", "amount": 22800.00 },
+	    { "label": "Travel", "amount": 3186.00 }
+	]
     },
-    { "id": "paul",
-      "name": "Paul Gardner-Stevens",
-      "duration": "September 2011 - August 2012",
-      "blog": "http://servalpaul.blogspot.com",
-      "twitter": "@servalpaul",
-      "www": "http://www.servalproject.org",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "Software", "amount": 142099.65 },
-		{ "label": "Travel", "amount": 21715.79 },
-		{ "label": "People", "amount": 11061.82 }
-	       ]
+    {
+	"id": "jonas",
+	"name": "Jonas Öberg",
+	"duration": "March 2013 - present",
+	"months_in_year": 10,
+	"blog": "http://jonasoberg.net",
+	"twitter": "@jonaso",
+	"www": "http://commonsmachinery.se",
+	"contribution": {
+	    "fellow": 18623.01,
+	    "our": 210037.99
+	},
+	"spend": [
+	    { "label": "People", "amount": 271633.00 },
+	    { "label": "Infrastructure", "amount": 26320.50 },
+	    { "label": "Travel", "amount": 30707.50 }
+	]
     },
-    { "id": "philipp",
-      "name": "Philipp Schmidt",
-      "duration": "June 2009 - August 2012",
-      "blog": "http://sharing-nicely.net",
-      "twitter": "@schmidtphi",
-      "www": "http://p2pu.org",
-      "contribution": {
-	  "fellow": 14804.28,
-	  "our": 198046.44
-      },
-      "spend": [{ "label": "People", "amount": 64733.89 },
-		{ "label": "Infrastructure", "amount": 22046.96 },
-		{ "label": "Events", "amount": 18748.13 }
-	       ]
+    {
+	"id": "kathi",
+	"name": "Kathi Fletcher",
+	"duration": "March 2011 - present",
+	"months_in_year": 12,
+	"blog": "http://kefletcher.blogspot.com",
+	"twitter": "@kefletcher",
+	"www": "http://oerpub.org",
+	"contribution": {
+	    "fellow": 17538.72,
+	    "our": 330438.40
+	},
+	"spend": [
+	    { "label": "People", "amount": 258175.83 },
+	    { "label": "Software", "amount": 81601.29 },
+	    { "label": "Travel", "amount": 8200.00 }
+	]
+    },
+    {
+	"id": "marcin",
+	"name": "Marcin Jacubowski",
+	"duration": "March 2012 - present",
+	"months_in_year": 12,
+	"blog": "http://blog.opensourceecology.org/blog-2",
+	"twitter": "@OSEcology",
+	"www": "http://opensourceecology.org",
+	"contribution": {
+	    "fellow": 9219.80,
+	    "our": 192708.99
+	},
+	"spend": [
+	    { "label": "People", "amount": 100511.00 },
+	    { "label": "Infrastructure", "amount": 100000.00 },
+	    { "label": "Travel", "amount": 1417.79 }
+	]
+    },
+    {
+	"id": "moxie",
+	"name": "Moxie Marlinspike",
+	"duration": "September 2013 - present",
+	"months_in_year": 4,
+	"blog": "http://thoughtcrime.org",
+	"twitter": "@moxie",
+	"www": "https://whispersystems.org",
+	"contribution": {
+	    "fellow": 3088.73,
+	    "our": 108642.55
+	},
+	"spend": [
+	    { "label": "People", "amount": 77755.28 },
+	    { "label": "Software", "amount": 33976.00 }
+	]
+    },
+    { 
+	"id": "rufus",
+	"name": "Rufus Pollock",
+	"duration": "September 2010 - present",
+	"months_in_year": 8,
+	"blog": "http://rufuspollock.org",
+	"twitter": "@rufuspollock",
+	"www": "http://rufuspollock.org",
+	"contribution": {
+	    "fellow": 19332.16,
+	    "our": 251881.32
+	},
+	"spend": [
+	    { "label": "People", "amount": 244112.86 },
+	    { "label": "Infrastructure", "amount": 22792.72 },
+	    { "label": "Travel", "amount": 4307.90 }
+	]
     }
 ]
+

@@ -290,6 +290,8 @@ section#fellow-spend {
 	    
 	    .fellow-spend-chart-photo {
 		background-color: $white;
+		background-position: 50% 0%;
+		background-size: cover;
 		border: 4px solid $white;
 		border-radius: 50%;
 		position: absolute;
