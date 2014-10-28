@@ -14,7 +14,7 @@
 	"spend": [
 	    { "label": "People", "amount": 135092.00 },
 	    { "label": "Marketing", "amount": 60962.94 },
-	    { "label": "Software", "amount": 14658.40 },
+	    { "label": "Software Development", "amount": 14658.40 },
 	    { "label": "Training", "amount": 2137.42 }
 	]
     },
@@ -31,7 +31,7 @@
 	"spend": [
 	    { "label": "People", "amount": 175484.56 },
 	    { "label": "Infrastructure", "amount": 79739.18 },
-	    { "label": "Software", "amount": 24000.00 },
+	    { "label": "Software Development", "amount": 24000.00 },
 	    { "label": "Travel", "amount": 60224.71 }
 	]
     },
@@ -66,7 +66,7 @@
 	},
 	"spend": [
 	    { "label": "People", "amount": 330726.50 },
-	    { "label": "Software", "amount": 98000.00 }
+	    { "label": "Software Development", "amount": 98000.00 }
 	]
     },
     {
@@ -82,7 +82,7 @@
 	    "our": 322022.36
 	},
 	"spend": [
-	    { "label": "Software", "amount": 245000.00 },
+	    { "label": "Software Development", "amount": 245000.00 },
 	    { "label": "People", "amount": 97511.00 }
 	]
     },
@@ -100,7 +100,7 @@
 	},
 	"spend": [
 	    { "label": "People", "amount": 81412.18 },
-	    { "label": "Software", "amount": 150720.00 },
+	    { "label": "Software Development", "amount": 150720.00 },
 	    { "label": "Travel", "amount": 3721.80 }
 	]
     },
@@ -172,7 +172,7 @@
 	},
 	"spend": [
 	    { "label": "People", "amount": 258175.83 },
-	    { "label": "Software", "amount": 81601.29 },
+	    { "label": "Software Development", "amount": 81601.29 },
 	    { "label": "Travel", "amount": 8200.00 }
 	]
     },
@@ -208,7 +208,7 @@
 	},
 	"spend": [
 	    { "label": "People", "amount": 77755.28 },
-	    { "label": "Software", "amount": 33976.00 }
+	    { "label": "Software Development", "amount": 33976.00 }
 	]
     },
     { 

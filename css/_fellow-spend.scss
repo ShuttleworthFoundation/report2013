@@ -1,9 +1,11 @@
 section#fellow-spend {
     .container-fellow-spend {
 	width: 100%;
-	border-top: 3px dotted $black;
-	border-bottom: 3px dotted $black;
+	//border-top: 3px dotted $black;
+	//border-bottom: 3px dotted $black;
 	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 60px;
 	
 	.container-fellow-spend-inner {
 	    white-space: nowrap;
@@ -74,7 +76,7 @@ section#fellow-spend {
 		    
 		    .fellow-spend-item {
 			width: (125px+70px);
-			margin-left: (500px-125px-70px);
+			margin-left: (500px-125px-70px-30px);
 			margin-top: 10px;
 			margin-bottom: 10px;
 			text-align: left;
@@ -88,7 +90,7 @@ section#fellow-spend {
 			font-size: 20px;
 			padding: 5px 0;
 			margin-top: 10px;
-			
+			margin-right: 30px;
 			
 			.fellow-spend-total-amount {
 			    display: inline-block;
