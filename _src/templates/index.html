@@ -1,0 +1,53 @@
+---
+layout: default
+title:  The Shuttleworth Foundation - Annual Report 2013
+---
+
+<link href="css/report.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+<div id="report2013">
+  
+  <section id="header">
+    <div class="container">
+      <div class="header-main">
+	<h1>2013 Annual Report</h1>
+      </div>
+      <div class="header-underline">
+	<div class="header-underline-line"></div>
+	<div class="header-underline-line"></div>
+      </div>
+      <div class="header-tagline">
+	&hellip;ideas and knowledge are shared and accessed freely,
+	without fear of judgement.
+      </div>
+    </div>
+    <script>
+      _jqq.push(function() {
+          $('.header-tagline').hide();
+          $('.header-tagline').fadeIn(1000);
+      });
+    </script>
+  </section>
+  
+  [% include 'message.html' %]
+  [% include 'energy.html' %]
+  [% include 'our-spend.html' %]
+  [% include 'applications.html' %]
+  [% include 'fellow-spend.html' %]
+  [% include 'alumni.html' %]
+  
+</div>
+<script src="js/d3.v3.min.js"></script>
+<script>
+  Number.prototype.formatMoney = function(c, d, t){
+      var n = this, 
+      c = isNaN(c = Math.abs(c)) ? 2 : c, 
+      d = d == undefined ? "." : d, 
+      t = t == undefined ? "," : t, 
+      s = n < 0 ? "-" : "", 
+      i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+      j = (j = i.length) > 3 ? j % 3 : 0;
+      return s + '$' + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+  };
+</script>
+

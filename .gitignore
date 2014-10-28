@@ -12,4 +12,4 @@
 _venv/*
 
 #generated output
-index.html
+/index.html
