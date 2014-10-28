@@ -217,9 +217,6 @@
 			by = p[1];
 		    }
 		}
-		if (c.code == 'IM') {
-		    console.log(p[1], ty);
-		}
 	    });
 	});
 	c.path = path;
