@@ -17,6 +17,10 @@ repository with:
 ```shell
 $ git clone --recursive git@github.com:ShuttleworthFoundation/shuttleworthfoundation.org.git
 ```
+Requirements
+--------
+
+You will need python, python-virtualenv and jekyll installed on your machine.
 
 Building
 --------
